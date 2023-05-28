@@ -1,5 +1,5 @@
 # PixaBayCollage
-This application demonstrates TDD approach with MVVM with swiftui &amp; Combine
+This application demonstrates TDD approach with MVVM using swiftui &amp; Combine
 
 ## TDD Approach ##
 
