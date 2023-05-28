@@ -9,7 +9,7 @@ This application demonstrates TDD approach with MVVM using swiftui &amp; Combine
 
 3-Pass the test
 
-4-Refactore code
+4-Refactor code
 
 
 <img width="197" alt="Screenshot 2023-05-29 at 12 39 24 AM" src="https://github.com/Zulqurnain24/PixaBayCollage/assets/6280238/91037ee8-ef11-471a-a06c-cc40d751ca60">
