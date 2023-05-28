@@ -1,5 +1,5 @@
 //
-//  PixaBayCollageUITests.swift
+//  ScreenShotTest.swift
 //  PixaBayCollageUITests
 //
 //  Created by Muhammad Zulqurnain on 28/05/2023.
@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class PixaBayCollageUITests: XCTestCase {
+final class ScreenShotTest: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -22,20 +22,13 @@ final class PixaBayCollageUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
+    func testCollageListView() throws {
         // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
-
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
+        let currentAppWindow = XCUIScreen.main
+        let screenshot = currentAppWindow.screenshot()
+        let attachment = XCTAttachment(screenshot: screenshot)
+        attachment.lifetime = .keepAlways
+        attachment.name = "Screenshot for CollageListView"
+        add(attachment)
     }
 }

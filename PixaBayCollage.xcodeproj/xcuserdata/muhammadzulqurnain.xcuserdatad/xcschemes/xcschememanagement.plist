@@ -7,7 +7,35 @@
 		<key>PixaBayCollage.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>PixaBayCollageTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>PixaBayCollageUITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>64EC3DDA2A23B1B3003567CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>64EC3DEA2A23B1B5003567CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>64EC3DF42A23B1B5003567CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
