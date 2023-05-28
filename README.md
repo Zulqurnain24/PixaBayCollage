@@ -7,34 +7,8 @@ This application demonstrates TDD approach with MVVM with swiftui &amp; Combine
 2-Then write code to pass the test
 3-Pass the test
 4-Refactore code
-  +------------------+
-  |     Write a      |
-  |   failing test   |
-  +------------------+
-             |
-             v
-  +------------------+
-  |   Run the test   |
-  |   (Test fails)   |
-  +------------------+
-             |
-             v
-  +------------------+
-  |   Write the      |
-  |    code          |
-  +------------------+
-             |
-             v
-  +------------------+
-  |   Run the test   |
-  |   (Test passes)  |
-  +------------------+
-             |
-             v
-  +------------------+
-  |    Refactor      |
-  |    the code      |
-  +------------------+
+
+<img width="197" alt="Screenshot 2023-05-29 at 12 39 24 AM" src="https://github.com/Zulqurnain24/PixaBayCollage/assets/6280238/91037ee8-ef11-471a-a06c-cc40d751ca60">
 
 ## MVVM ##
 
@@ -45,17 +19,4 @@ This application demonstrates TDD approach with MVVM with swiftui &amp; Combine
 5-Implement the view and use viewmodel to implement business logic
 6-Transform data in viewmodel if required
 
-
-   +-----------------+
-   |     Model       |
-   +-----------------+
-         |   ^
-         v   |
-   +-----------------+
-   |     View        |
-   +-----------------+
-         |   ^
-         v   |
-   +-----------------+
-   |   ViewModel     |
-   +-----------------+
+<img width="188" alt="Screenshot 2023-05-29 at 12 39 50 AM" src="https://github.com/Zulqurnain24/PixaBayCollage/assets/6280238/4bf01346-ef48-4435-8180-59159cd2dd6e">
